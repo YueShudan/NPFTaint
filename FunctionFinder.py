@@ -24,7 +24,6 @@ from sklearn.preprocessing import PowerTransformer
 from sklearn.preprocessing import MinMaxScaler, MaxAbsScaler, RobustScaler, QuantileTransformer
 
 
-print("当前工作目录:", os.getcwd())
 positive_data = pd.read_csv('TaintSource/functionsample/Positive1.csv')
 negative_data = pd.read_csv('TaintSource/functionsample/Negative1.csv')
 
