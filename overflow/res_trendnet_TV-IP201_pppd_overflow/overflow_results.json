@@ -1,0 +1,17 @@
+{
+    "closures": [],
+    "cfg_time": 24.56250238418579,
+    "vra_time": 27.194689750671387,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/TV-IP201/pppd",
+    "name": "pppd",
+    "has_sinks": true,
+    "sha256": "8d942e84b8a826a10f3473519f81dab5e16885f88fd0b04d76e258d409ef1617",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.0025484561920166016,
+    "sinks": {
+        "strcpy": 0,
+        "memcpy": 0
+    },
+    "time_data": {}
+}

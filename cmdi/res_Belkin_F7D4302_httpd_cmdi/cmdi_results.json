@@ -1,0 +1,4068 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "sub_416e90",
+                    "string": "sub_416e90(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x416e90",
+                    "ins_addr": "0x416e90"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456748>, <BV32 Reverse(TOP) + 0x6748>}})>) @ 0x417070",
+                "ins_addr": "0x417070"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "StartPrivoxy",
+                    "string": "StartPrivoxy(<MultiValues(<BV32 TOP>)>) @ 0x44d0f4",
+                    "ins_addr": "0x44d0f4"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff78>)>) @ 0x44d144",
+                "ins_addr": "0x44d144"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "ej_OutFwbStats_script",
+                    "string": "ej_OutFwbStats_script(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x446930",
+                    "ins_addr": "0x446930"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffab4>)>) @ 0x446ad4",
+                "ins_addr": "0x446ad4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wan0_pppoe_ifname",
+                    "wan0_ifname"
+                ],
+                "possibly": [
+                    "wan0_proto",
+                    "wan0_pptp_enable"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4483688,
+                    4483732
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d2ac",
+                    "string": "sub_44d2ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44d2ac",
+                    "ins_addr": "0x44d2ac"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffce8>)>) @ 0x44d368",
+                "ins_addr": "0x44d368"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44eed4",
+                    "string": "sub_44eed4(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44eed4",
+                    "ins_addr": "0x44eed4"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffcd8>)>) @ 0x44ef70",
+                "ins_addr": "0x44ef70"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d5ac",
+                    "string": "sub_44d5ac(<MultiValues(<BV32 TOP>)>) @ 0x44d5ac",
+                    "ins_addr": "0x44d5ac"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d5f8",
+                    "ins_addr": "0x44d5f8"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d62c",
+                    "ins_addr": "0x44d62c"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d5ac",
+                    "string": "sub_44d5ac(<MultiValues(<BV32 TOP>)>) @ 0x44d5ac",
+                    "ins_addr": "0x44d5ac"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d5f8",
+                    "ins_addr": "0x44d5f8"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d62c",
+                    "ins_addr": "0x44d62c"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff88>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44eed4",
+                    "string": "sub_44eed4(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44eed4",
+                    "ins_addr": "0x44eed4"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffcd8>)>) @ 0x44f0ac",
+                    "ins_addr": "0x44f0ac"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffcd8>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/tmp/iptables.urlblocking"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x4554e8>, <BV32 Reverse(TOP) + 0x54e8>}})>) @ 0x410154",
+                "ins_addr": "0x410154"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffb2c8>, <BV32 0x45b2c8>}})>) @ 0x430598",
+                "ins_addr": "0x430598"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd626>)>) @ 0x430404",
+                "ins_addr": "0x430404"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd626>)>) @ 0x430c94",
+                "ins_addr": "0x430c94"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x455744>, <BV32 Reverse(TOP) + 0x5744>}})>) @ 0x430018",
+                "ins_addr": "0x430018"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3b0>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456748>, <BV32 Reverse(TOP) + 0x6748>}})>) @ 0x431b6c",
+                "ins_addr": "0x431b6c"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4914>, <BV32 0x464914>}})>) @ 0x447680",
+                "ins_addr": "0x447680"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x464934>, <BV32 Reverse(TOP) + 0x4934>}})>) @ 0x447698",
+                "ins_addr": "0x447698"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456d04>, <BV32 Reverse(TOP) + 0x6d04>}})>) @ 0x447754",
+                "ins_addr": "0x447754"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcec4>)>) @ 0x4477a4",
+                "ins_addr": "0x4477a4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcec4>)>) @ 0x4477d8",
+                "ins_addr": "0x4477d8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcec4>)>) @ 0x44780c",
+                "ins_addr": "0x44780c"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x4649a0>, <BV32 Reverse(TOP) + 0x49a0>}})>) @ 0x447980",
+                "ins_addr": "0x447980"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcec4>)>) @ 0x447d04",
+                "ins_addr": "0x447d04"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4a44>, <BV32 0x464a44>}})>) @ 0x447d50",
+                "ins_addr": "0x447d50"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x464a58>, <BV32 Reverse(TOP) + 0x4a58>}})>) @ 0x447d6c",
+                "ins_addr": "0x447d6c"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4a84>, <BV32 0x464a84>}})>) @ 0x447ecc",
+                "ins_addr": "0x447ecc"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffb2d8>, <BV32 0x45b2d8>}})>) @ 0x4306f4",
+                "ins_addr": "0x4306f4"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd5c2>)>) @ 0x431adc",
+                "ins_addr": "0x431adc"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456cd0>, <BV32 Reverse(TOP) + 0x6cd0>}})>) @ 0x41a3d0",
+                "ins_addr": "0x41a3d0"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x6cd0>, <BV32 0x456cd0>}})>) @ 0x41a3e8",
+                "ins_addr": "0x41a3e8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x6d04>, <BV32 0x456d04>}})>) @ 0x41a4a4",
+                "ins_addr": "0x41a4a4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd30c>)>) @ 0x41a4d4",
+                "ins_addr": "0x41a4d4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd30c>)>) @ 0x41a504",
+                "ins_addr": "0x41a504"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffff8024>, <BV32 0x458024>}})>) @ 0x421bb8",
+                "ins_addr": "0x421bb8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x5744>, <BV32 0x455744>}})>) @ 0x410960",
+                "ins_addr": "0x410960"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffad1c>, <BV32 0x45ad1c>}})>) @ 0x432f6c",
+                "ins_addr": "0x432f6c"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d648",
+                    "string": "sub_44d648(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44d648",
+                    "ins_addr": "0x44d648"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d734",
+                    "ins_addr": "0x44d734"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d7d0",
+                    "ins_addr": "0x44d7d0"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d8b0",
+                    "ins_addr": "0x44d8b0"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d648",
+                    "string": "sub_44d648(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44d648",
+                    "ins_addr": "0x44d648"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d734",
+                    "ins_addr": "0x44d734"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d7d0",
+                    "ins_addr": "0x44d7d0"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d8b0",
+                    "ins_addr": "0x44d8b0"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d648",
+                    "string": "sub_44d648(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x44d648",
+                    "ins_addr": "0x44d648"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d734",
+                    "ins_addr": "0x44d734"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d7d0",
+                    "ins_addr": "0x44d7d0"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d8b0",
+                    "ins_addr": "0x44d8b0"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffed0>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41a180",
+                    "string": "sub_41a180(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41a180",
+                    "ins_addr": "0x41a180"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffed4>)>) @ 0x41a4d4",
+                "ins_addr": "0x41a4d4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "usb_mounted_nodes"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41a180",
+                    "string": "sub_41a180(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41a180",
+                    "ins_addr": "0x41a180"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffed4>)>) @ 0x41a504",
+                "ins_addr": "0x41a504"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "usb_mounted_nodes"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd6c6>)>) @ 0x430404",
+                "ins_addr": "0x430404"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [
+                    "wl_unit"
+                ],
+                "possibly": [
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4413880
+                ]
+            },
+            "rank": 1.2,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd6c6>)>) @ 0x430c94",
+                "ins_addr": "0x430c94"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [
+                    "wl_unit"
+                ],
+                "possibly": [
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4413880
+                ]
+            },
+            "rank": 1.2,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x4477a4",
+                "ins_addr": "0x4477a4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x4477d8",
+                "ins_addr": "0x4477d8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x44780c",
+                "ins_addr": "0x44780c"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x447d04",
+                "ins_addr": "0x447d04"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd662>)>) @ 0x431adc",
+                "ins_addr": "0x431adc"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [
+                    "wl_unit"
+                ],
+                "possibly": [
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4413880
+                ]
+            },
+            "rank": 1.2,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3ac>)>) @ 0x41a4d4",
+                "ins_addr": "0x41a4d4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3ac>)>) @ 0x41a504",
+                "ins_addr": "0x41a504"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp",
+                    "/tmp/sdList",
+                    "/tmp/sdportmap"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_44d550",
+                    "string": "sub_44d550(<MultiValues(<BV32 TOP>)>) @ 0x44d550",
+                    "ins_addr": "0x44d550"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffff90>)>) @ 0x44d594",
+                    "ins_addr": "0x44d594"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff90>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x4554e8>, <BV32 Reverse(TOP) + 0x54e8>}})>) @ 0x410154",
+                "ins_addr": "0x410154"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffb2c8>, <BV32 0x45b2c8>}})>) @ 0x430598",
+                "ins_addr": "0x430598"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd6c6>)>) @ 0x430404",
+                "ins_addr": "0x430404"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd6c6>)>) @ 0x430c94",
+                "ins_addr": "0x430c94"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x455744>, <BV32 Reverse(TOP) + 0x5744>}})>) @ 0x430018",
+                "ins_addr": "0x430018"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456748>, <BV32 Reverse(TOP) + 0x6748>}})>) @ 0x431b6c",
+                "ins_addr": "0x431b6c"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4914>, <BV32 0x464914>}})>) @ 0x447680",
+                "ins_addr": "0x447680"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x464934>, <BV32 Reverse(TOP) + 0x4934>}})>) @ 0x447698",
+                "ins_addr": "0x447698"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456d04>, <BV32 Reverse(TOP) + 0x6d04>}})>) @ 0x447754",
+                "ins_addr": "0x447754"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x4477a4",
+                "ins_addr": "0x4477a4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x4477d8",
+                "ins_addr": "0x4477d8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x44780c",
+                "ins_addr": "0x44780c"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x4649a0>, <BV32 Reverse(TOP) + 0x49a0>}})>) @ 0x447980",
+                "ins_addr": "0x447980"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffcf64>)>) @ 0x447d04",
+                "ins_addr": "0x447d04"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4a44>, <BV32 0x464a44>}})>) @ 0x447d50",
+                "ins_addr": "0x447d50"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x464a58>, <BV32 Reverse(TOP) + 0x4a58>}})>) @ 0x447d6c",
+                "ins_addr": "0x447d6c"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x4a84>, <BV32 0x464a84>}})>) @ 0x447ecc",
+                "ins_addr": "0x447ecc"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffb2d8>, <BV32 0x45b2d8>}})>) @ 0x4306f4",
+                "ins_addr": "0x4306f4"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd662>)>) @ 0x431adc",
+                "ins_addr": "0x431adc"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x456cd0>, <BV32 Reverse(TOP) + 0x6cd0>}})>) @ 0x41a3d0",
+                "ins_addr": "0x41a3d0"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x6cd0>, <BV32 0x456cd0>}})>) @ 0x41a3e8",
+                "ins_addr": "0x41a3e8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x6d04>, <BV32 0x456d04>}})>) @ 0x41a4a4",
+                "ins_addr": "0x41a4a4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3ac>)>) @ 0x41a4d4",
+                "ins_addr": "0x41a4d4"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3ac>)>) @ 0x41a504",
+                "ins_addr": "0x41a504"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffff8024>, <BV32 0x458024>}})>) @ 0x421bb8",
+                "ins_addr": "0x421bb8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0x5744>, <BV32 0x455744>}})>) @ 0x410960",
+                "ins_addr": "0x410960"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 Reverse(TOP) + 0xffffad1c>, <BV32 0x45ad1c>}})>) @ 0x432f6c",
+                "ins_addr": "0x432f6c"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/sdList\" | \"<BV32 TOP>",
+                    "/tmp/sdportmap\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe8a8>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe3bc>)>) @ 0x4477a4",
+                "ins_addr": "0x4477a4"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe3bc>)>) @ 0x4477d8",
+                "ins_addr": "0x4477d8"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe3bc>)>) @ 0x44780c",
+                "ins_addr": "0x44780c"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe3bc>)>) @ 0x447d04",
+                "ins_addr": "0x447d04"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe804>)>) @ 0x41a4d4",
+                "ins_addr": "0x41a4d4"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436048",
+                    "string": "sub_436048(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436048",
+                    "ins_addr": "0x436048"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436104",
+                    "ins_addr": "0x436104"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe804>)>) @ 0x41a504",
+                "ins_addr": "0x41a504"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin",
+                    "fread("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434b60",
+                    "string": "sub_434b60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434b60",
+                    "ins_addr": "0x434b60"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c1c",
+                    "ins_addr": "0x434c1c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "SetGuestClientRule",
+                    "string": "SetGuestClientRule(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffd522>)>) @ 0x4304b4",
+                    "ins_addr": "0x4304b4"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d538",
+                    "ins_addr": "0x44d538"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "/tmp/guest_login_arp",
+                    "/tmp/landing_login_arp"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434c80",
+                    "string": "sub_434c80(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434c80",
+                    "ins_addr": "0x434c80"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x435490",
+                    "ins_addr": "0x435490"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "SetGuestClientRule",
+                    "string": "SetGuestClientRule(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffd482>)>) @ 0x4304b4",
+                    "ins_addr": "0x4304b4"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffd3b0>)>) @ 0x44d538",
+                    "ins_addr": "0x44d538"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd3b0>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan0_",
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4349ac",
+                    "string": "sub_4349ac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4349ac",
+                    "ins_addr": "0x4349ac"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434a9c",
+                    "ins_addr": "0x434a9c"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "SetGuestClientRule",
+                    "string": "SetGuestClientRule(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffd522>)>) @ 0x4304b4",
+                    "ins_addr": "0x4304b4"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d538",
+                    "ins_addr": "0x44d538"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffd450>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 6,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "/tmp/guest_login_arp\" | \"<BV32 TOP>",
+                    "/tmp/landing_login_arp\" | \"<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_436168",
+                    "string": "sub_436168(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436168",
+                    "ins_addr": "0x436168"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x436224",
+                    "ins_addr": "0x436224"
+                },
+                {
+                    "function": "sub_42d458",
+                    "string": "sub_42d458(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4358dc",
+                    "ins_addr": "0x4358dc"
+                },
+                {
+                    "function": "sub_4356e0",
+                    "string": "sub_4356e0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42dd18",
+                    "ins_addr": "0x42dd18"
+                },
+                {
+                    "function": "SetGuestClientRule",
+                    "string": "SetGuestClientRule(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffe97a>)>) @ 0x4304b4",
+                    "ins_addr": "0x4304b4"
+                },
+                {
+                    "function": "IptablesSysCall",
+                    "string": "IptablesSysCall(<MultiValues(<BV32 stack_base + 0xffffe8a8>)>) @ 0x44d538",
+                    "ins_addr": "0x44d538"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffe8a8>)>) @ 0x44d4c8",
+                "ins_addr": "0x44d4c8"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "stdin"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 39.549460887908936,
+    "vra_time": 70.6096441745758,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/belkin/F7D4302/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "5a458f3559d04f9ac3dcf081f6c46636e1371206494e583cbff390e7c0d7af03",
+    "sink_times": {
+        "system": 1835.206018447876
+    },
+    "error": null,
+    "mango_time": 1835.3720135688782,
+    "sinks": {
+        "system": 47
+    },
+    "time_data": {
+        "0x4229ac -> 0x500244": {
+            "taint_time": 0.417675256729126,
+            "rda_time": 2.0850186347961426
+        },
+        "0x416e90 -> 0x500244": {
+            "taint_time": 0.685399055480957,
+            "rda_time": 0.9225542545318604
+        },
+        "0x44d0f4 -> 0x500244": {
+            "taint_time": 0.03879094123840332,
+            "rda_time": 0.06048750877380371
+        },
+        "0x446930 -> 0x500244": {
+            "taint_time": 1.834954023361206,
+            "rda_time": 1.1548495292663574
+        },
+        "0x44d2ac -> 0x500244": {
+            "taint_time": 0.1393420696258545,
+            "rda_time": 0.1924452781677246
+        },
+        "0x41721c -> 0x500244": {
+            "taint_time": 0.4469177722930908,
+            "rda_time": 0.5508067607879639
+        },
+        "0x4406d8 -> 0x500244": {
+            "taint_time": 0.6569440364837646,
+            "rda_time": 0.7526302337646484
+        },
+        "0x423cc4 -> 0x500244": {
+            "taint_time": 0.239715576171875,
+            "rda_time": 0.2721126079559326
+        },
+        "0x44eed4 -> 0x500244": {
+            "taint_time": 0.17049527168273926,
+            "rda_time": 0.22112560272216797
+        },
+        "0x44d4b0 -> 0x44d5ac -> 0x500244": {
+            "taint_time": 0.07367706298828125,
+            "rda_time": 0.07136845588684082
+        },
+        "0x44d4b0 -> 0x44eed4 -> 0x500244": {
+            "taint_time": 0.17338085174560547,
+            "rda_time": 0.33529186248779297
+        },
+        "0x42d458 -> 0x434c80 -> 0x500244": {
+            "taint_time": 186.1364026069641,
+            "rda_time": 76.54262351989746
+        },
+        "0x44d4b0 -> 0x44d648 -> 0x500244": {
+            "taint_time": 0.22652101516723633,
+            "rda_time": 2.7864739894866943
+        },
+        "0x41a180 -> 0x500244": {
+            "taint_time": 0.8624622821807861,
+            "rda_time": 0.9597783088684082
+        },
+        "0x42d458 -> 0x434b60 -> 0x500244": {
+            "taint_time": 0.08869814872741699,
+            "rda_time": 63.735769510269165
+        },
+        "0x44d4b0 -> 0x44d550 -> 0x500244": {
+            "taint_time": 0.03842782974243164,
+            "rda_time": 0.04903721809387207
+        },
+        "0x42d458 -> 0x4349ac -> 0x500244": {
+            "taint_time": 1.9378986358642578,
+            "rda_time": 77.87196207046509
+        },
+        "0x4474a8 -> 0x42d458 -> 0x4349ac -> 0x500244": {
+            "taint_time": 25.625134706497192,
+            "rda_time": 51.37475275993347
+        },
+        "0x42149c -> 0x42d458 -> 0x434b60 -> 0x500244": {
+            "taint_time": 28.969895362854004,
+            "rda_time": 56.62852120399475
+        },
+        "0x42d458 -> 0x4356e0 -> 0x436048 -> 0x500244": {
+            "taint_time": 0.9141340255737305,
+            "rda_time": 47.66377139091492
+        },
+        "0x42d458 -> 0x4356e0 -> 0x435f28 -> 0x500244": {
+            "taint_time": 0.09134650230407715,
+            "rda_time": 44.83605146408081
+        },
+        "0x410218 -> 0x500244": {
+            "taint_time": 1.289487600326538,
+            "rda_time": 1.709242820739746
+        },
+        "0x40fb90 -> 0x42d458 -> 0x434c80 -> 0x500244": {
+            "taint_time": 88.48871779441833,
+            "rda_time": 81.71902513504028
+        },
+        "0x42149c -> 0x42d458 -> 0x434c80 -> 0x500244": {
+            "taint_time": 0.877511739730835,
+            "rda_time": 65.40501093864441
+        },
+        "0x4474a8 -> 0x42d458 -> 0x434b60 -> 0x500244": {
+            "taint_time": 0.08726024627685547,
+            "rda_time": 43.140862464904785
+        },
+        "0x42149c -> 0x42d458 -> 0x4349ac -> 0x500244": {
+            "taint_time": 1.9094817638397217,
+            "rda_time": 71.54388499259949
+        },
+        "0x40fb90 -> 0x42d458 -> 0x4349ac -> 0x500244": {
+            "taint_time": 1.9022047519683838,
+            "rda_time": 79.24611496925354
+        },
+        "0x4474a8 -> 0x42d458 -> 0x434c80 -> 0x500244": {
+            "taint_time": 0.87111496925354,
+            "rda_time": 50.0876202583313
+        },
+        "0x40fb90 -> 0x42d458 -> 0x434b60 -> 0x500244": {
+            "taint_time": 0.08775973320007324,
+            "rda_time": 63.30508255958557
+        },
+        "0x42d458 -> 0x4356e0 -> 0x436168 -> 0x500244": {
+            "taint_time": 0.09596824645996094,
+            "rda_time": 51.58591032028198
+        },
+        "0x4474a8 -> 0x42d458 -> 0x4356e0 -> 0x436048 -> 0x500244": {
+            "taint_time": 0.8772380352020264,
+            "rda_time": 32.052610874176025
+        },
+        "0x4474a8 -> 0x42d458 -> 0x4356e0 -> 0x436168 -> 0x500244": {
+            "taint_time": 0.08594727516174316,
+            "rda_time": 32.21454119682312
+        },
+        "0x44d4b0 -> 0x44d4cc -> 0x42d458 -> 0x434b60 -> 0x500244": {
+            "taint_time": 15.575945138931274,
+            "rda_time": 39.08461236953735
+        },
+        "0x42149c -> 0x42d458 -> 0x4356e0 -> 0x435f28 -> 0x500244": {
+            "taint_time": 0.9691238403320312,
+            "rda_time": 39.04631781578064
+        },
+        "0x42149c -> 0x42d458 -> 0x4356e0 -> 0x436168 -> 0x500244": {
+            "taint_time": 0.1021277904510498,
+            "rda_time": 39.24719023704529
+        },
+        "0x42149c -> 0x42d458 -> 0x4356e0 -> 0x436048 -> 0x500244": {
+            "taint_time": 0.09667181968688965,
+            "rda_time": 36.40921401977539
+        },
+        "0x40fb90 -> 0x42d458 -> 0x4356e0 -> 0x436168 -> 0x500244": {
+            "taint_time": 0.8963923454284668,
+            "rda_time": 44.95626711845398
+        },
+        "0x40fb90 -> 0x42d458 -> 0x4356e0 -> 0x436048 -> 0x500244": {
+            "taint_time": 0.0841975212097168,
+            "rda_time": 46.84233331680298
+        },
+        "0x40fb90 -> 0x42d458 -> 0x4356e0 -> 0x435f28 -> 0x500244": {
+            "taint_time": 0.09410381317138672,
+            "rda_time": 44.77371120452881
+        },
+        "0x44d4b0 -> 0x44d4cc -> 0x42d458 -> 0x434c80 -> 0x500244": {
+            "taint_time": 0.8940322399139404,
+            "rda_time": 44.865453481674194
+        },
+        "0x4474a8 -> 0x42d458 -> 0x4356e0 -> 0x435f28 -> 0x500244": {
+            "taint_time": 0.09200644493103027,
+            "rda_time": 30.87506341934204
+        },
+        "0x44d4b0 -> 0x44d4cc -> 0x42d458 -> 0x4349ac -> 0x500244": {
+            "taint_time": 1.8224332332611084,
+            "rda_time": 44.15394115447998
+        },
+        "0x44d4b0 -> 0x44d4cc -> 0x42d458 -> 0x4356e0 -> 0x436168 -> 0x500244": {
+            "taint_time": 1.1855089664459229,
+            "rda_time": 26.39090633392334
+        }
+    }
+}

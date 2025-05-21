@@ -1,0 +1,14 @@
+{
+    "closures": [],
+    "cfg_time": 4.8302528858184814,
+    "vra_time": 23.613653898239136,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/linksys/WAP610N/upnpd",
+    "name": "upnpd",
+    "has_sinks": false,
+    "sha256": "d17b332aaf221de64401f6ba7727e2c14146c3845121065da8add7227098f8b0",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.006767988204956055,
+    "sinks": {},
+    "time_data": {}
+}

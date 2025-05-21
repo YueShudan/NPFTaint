@@ -1,0 +1,14 @@
+{
+    "closures": [],
+    "cfg_time": 11.062967538833618,
+    "vra_time": 33.162874698638916,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/belkin/F9J1108/miniupnpd",
+    "name": "miniupnpd",
+    "has_sinks": false,
+    "sha256": "a2250d106d93ad01799572ca2f1b9bd616b075b6f6cc1f3f908d65e17b114712",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.005948543548583984,
+    "sinks": {},
+    "time_data": {}
+}

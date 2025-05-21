@@ -1,0 +1,145 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "main",
+                    "string": "main() @ 0x401700",
+                    "ins_addr": "0x401700"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP + 0xffffffff>)>) @ 0x4030f4",
+                "ins_addr": "0x4030f4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": true,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_40cb34",
+                    "string": "sub_40cb34(<MultiValues(<BV32 TOP>)>) @ 0x40cb34",
+                    "ins_addr": "0x40cb34"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x428588>)>, <MultiValues(<BV32 0x42858f>)>) @ 0x40cc8c",
+                "ins_addr": "0x40cc8c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_40633c",
+                    "string": "sub_40633c() @ 0x40633c",
+                    "ins_addr": "0x40633c"
+                },
+                {
+                    "function": "sub_40bb08",
+                    "string": "sub_40bb08(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xfffffc04>)>, <MultiValues(<BV32 0x1f4>)>) @ 0x4066fc",
+                    "ins_addr": "0x4066fc"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues({0: {<BV32 stack_base + 0xfffffc04>, <BV32 stack_base + 0xfffffc05>}})>, <MultiValues(<BV32 TOP>)>) @ 0x40bff0",
+                "ins_addr": "0x40bff0"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 3.567133665084839,
+    "vra_time": 11.67840027809143,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/belkin/F9J1108/mini_httpd",
+    "name": "mini_httpd",
+    "has_sinks": true,
+    "sha256": "9a3a14060d5315bab17aaccb504335979aa7d2b1f36dca32189ee3552c3010a9",
+    "sink_times": {
+        "strcpy": 32.47207021713257
+    },
+    "error": null,
+    "mango_time": 53.249712228775024,
+    "sinks": {
+        "strcpy": 8,
+        "memcpy": 6
+    },
+    "time_data": {
+        "0x401700 -> 0x500008": {
+            "taint_time": 4.1562559604644775,
+            "rda_time": 5.353164434432983
+        },
+        "0x40cb34 -> 0x500008": {
+            "taint_time": 0.09806585311889648,
+            "rda_time": 0.0932013988494873
+        },
+        "0x405e18 -> 0x404c54 -> 0x500008": {
+            "taint_time": 7.346168279647827,
+            "rda_time": 6.7645649909973145
+        },
+        "0x40bb08 -> 0x40633c -> 0x500008": {
+            "taint_time": 4.637209892272949,
+            "rda_time": 3.32332706451416
+        },
+        "0x401700 -> 0x50019c": {
+            "taint_time": 4.283367872238159,
+            "rda_time": 4.966675758361816
+        },
+        "0x40633c -> 0x50019c": {
+            "taint_time": 0.27056169509887695,
+            "rda_time": 0.26523447036743164
+        },
+        "0x40633c -> 0x404c54 -> 0x50019c": {
+            "taint_time": 0.8672935962677002,
+            "rda_time": 1.3507957458496094
+        },
+        "0x40bb08 -> 0x40633c -> 0x50019c": {
+            "taint_time": 5.342459440231323,
+            "rda_time": 2.7084596157073975
+        },
+        "0x40adb4 -> 0x50019c": {
+            "taint_time": 0.27506065368652344,
+            "rda_time": 0.2759218215942383
+        }
+    }
+}

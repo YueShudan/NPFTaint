@@ -1,0 +1,16 @@
+{
+    "closures": [],
+    "cfg_time": 8.780563592910767,
+    "vra_time": 28.863572359085083,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/818dru/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "7bf86eb2509d1bde0438120468478e1d7c069b9725a0025db7c3fe9f5ca92fcb",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.9183857440948486,
+    "sinks": {
+        "system": 1
+    },
+    "time_data": {}
+}

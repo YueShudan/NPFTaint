@@ -1,0 +1,681 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "start_arpping_process",
+                    "string": "start_arpping_process(<MultiValues(<BV32 TOP>)>) @ 0x44f0ac",
+                    "ins_addr": "0x44f0ac"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffeff8>)>) @ 0x44f130",
+                "ins_addr": "0x44f130"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452764",
+                "ins_addr": "0x452764"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452764",
+                "ins_addr": "0x452764"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452824",
+                "ins_addr": "0x452824"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452824",
+                "ins_addr": "0x452824"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x45279c",
+                "ins_addr": "0x45279c"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x45279c",
+                "ins_addr": "0x45279c"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x45285c",
+                "ins_addr": "0x45285c"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x45285c",
+                "ins_addr": "0x45285c"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x4527d4",
+                "ins_addr": "0x4527d4"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x4527d4",
+                "ins_addr": "0x4527d4"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452894",
+                "ins_addr": "0x452894"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_412d1c",
+                    "string": "sub_412d1c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x412d1c",
+                    "ins_addr": "0x412d1c"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4131d4",
+                    "ins_addr": "0x4131d4"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                },
+                {
+                    "function": "open_close_streaming_port",
+                    "string": "open_close_streaming_port(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x1>)>) @ 0x4136e8",
+                    "ins_addr": "0x4136e8"
+                },
+                {
+                    "function": "change_port_rule_on_iptable",
+                    "string": "change_port_rule_on_iptable(<MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 TOP>)>) @ 0x452650",
+                    "ins_addr": "0x452650"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffef5c>)>) @ 0x452894",
+                "ins_addr": "0x452894"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41375c",
+                    "string": "sub_41375c(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41375c",
+                    "ins_addr": "0x41375c"
+                }
+            ],
+            "sink": {
+                "function": "popen",
+                "string": "popen(<MultiValues(<BV32 stack_base + 0xffffef8c>)>, <MultiValues(<BV32 0x455428>)>) @ 0x413904",
+                "ins_addr": "0x413904"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 16.27077031135559,
+    "vra_time": 55.05263805389404,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/asus/RT-AC55U/lighttpd",
+    "name": "lighttpd",
+    "has_sinks": true,
+    "sha256": "cb7e554a7fb266c974aa26b1e09a4dc97d647ab803999453c67ecd901dfc7985",
+    "sink_times": {
+        "system": 42.749990701675415,
+        "popen": 0.5446934700012207
+    },
+    "error": null,
+    "mango_time": 2269.609872341156,
+    "sinks": {
+        "system": 7,
+        "popen": 1,
+        "execl": 2
+    },
+    "time_data": {
+        "0x44f0ac -> 0x4084a0": {
+            "taint_time": 0.04467368125915527,
+            "rda_time": 1.0007002353668213
+        },
+        "0x4526d8 -> 0x4525f8 -> 0x412d1c -> 0x4084a0": {
+            "taint_time": 18.719618797302246,
+            "rda_time": 22.912012577056885
+        },
+        "0x41375c -> 0x4092b0": {
+            "taint_time": 0.26360058784484863,
+            "rda_time": 0.27962636947631836
+        },
+        "0x42e034 -> 0x42e65c -> 0x408e30": {
+            "taint_time": 115.11023807525635,
+            "rda_time": 0.23400330543518066
+        },
+        "0x42e034 -> 0x42f380 -> 0x40a9a0 -> 0x408e30": {
+            "taint_time": 85.06583046913147,
+            "rda_time": 300.1554365158081
+        },
+        "0x42e034 -> 0x42e398 -> 0x40a9a0 -> 0x408e30": {
+            "taint_time": 98.2844967842102,
+            "rda_time": 300.1174817085266
+        },
+        "0x42e034 -> 0x42f380 -> 0x42f4c8 -> 0x44dc54 -> 0x408e30": {
+            "taint_time": 6.943019866943359,
+            "rda_time": 19.33796525001526
+        },
+        "0x42e034 -> 0x42f380 -> 0x42f4c8 -> 0x412580 -> 0x416310 -> 0x40a9a0 -> 0x408e30": {
+            "taint_time": 338.06404185295105,
+            "rda_time": 300.1182494163513
+        },
+        "0x42e034 -> 0x42f380 -> 0x42f4c8 -> 0x412580 -> 0x416310 -> 0x417cac -> 0x408e30": {
+            "taint_time": 8.142805814743042,
+            "rda_time": 300.13864850997925
+        },
+        "0x428838 -> 0x428a8c -> 0x41f8d8 -> 0x421b94 -> 0x423e7c -> 0x41f208 -> 0x41f590 -> 0x408e30": {
+            "taint_time": 51.99950933456421,
+            "rda_time": 300.13119530677795
+        }
+    }
+}

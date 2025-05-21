@@ -1,0 +1,16 @@
+{
+    "closures": [],
+    "cfg_time": 5.442712783813477,
+    "vra_time": 2.388744592666626,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/TV-IP201/ez-ipupdate",
+    "name": "ez-ipupdate",
+    "has_sinks": true,
+    "sha256": "fa936283463054fa535e738cc46f10257e09e3a223aa02c5b9dfd056d208a130",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.0015172958374023438,
+    "sinks": {
+        "strcpy": 0
+    },
+    "time_data": {}
+}

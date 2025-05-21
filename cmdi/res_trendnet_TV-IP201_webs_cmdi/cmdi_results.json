@@ -1,0 +1,17 @@
+{
+    "closures": [],
+    "cfg_time": 20.706616163253784,
+    "vra_time": 14.118245840072632,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/TV-IP201/webs",
+    "name": "webs",
+    "has_sinks": true,
+    "sha256": "90823b73ce6654bf0900610fec4f09c4ed48bed149720a8e921fedcb60ea7b88",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.02293705940246582,
+    "sinks": {
+        "system": 0,
+        "execve": 0
+    },
+    "time_data": {}
+}

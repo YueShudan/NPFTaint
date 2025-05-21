@@ -1,0 +1,82 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "sub_405770",
+                    "string": "sub_405770(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x405770",
+                    "ins_addr": "0x405770"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x405868",
+                "ins_addr": "0x405868"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_405770",
+                    "string": "sub_405770(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x405770",
+                    "ins_addr": "0x405770"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP + TOP>)>) @ 0x40587c",
+                "ins_addr": "0x40587c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 44.69761323928833,
+    "vra_time": 56.00474286079407,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/asus/RT-AC1200E/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "650eddc0037ffa06df6c968a1761d0bd2c60c4fab9c9997e83a64a32087401ff",
+    "sink_times": {
+        "strcat": 2.5561606884002686
+    },
+    "error": null,
+    "mango_time": 2.618347644805908,
+    "sinks": {
+        "strcat": 29
+    },
+    "time_data": {
+        "0x40bf34 -> 0x500308": {
+            "taint_time": 0.4551849365234375,
+            "rda_time": 1.7683279514312744
+        },
+        "0x405770 -> 0x500308": {
+            "taint_time": 0.12394571304321289,
+            "rda_time": 0.1647801399230957
+        }
+    }
+}

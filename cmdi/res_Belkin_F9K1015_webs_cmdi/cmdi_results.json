@@ -1,0 +1,17 @@
+{
+    "closures": [],
+    "cfg_time": 48.705368518829346,
+    "vra_time": 9.882990837097168,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/belkin/F9K1015/webs",
+    "name": "webs",
+    "has_sinks": true,
+    "sha256": "2d6add6d4c86214e75f41dbb488f8581cd209252fce2d3bed899af16a2202baa",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.017577171325683594,
+    "sinks": {
+        "system": 0,
+        "execl": 0
+    },
+    "time_data": {}
+}

@@ -1,0 +1,583 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "websFrameProcessor",
+                    "string": "websFrameProcessor(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42c000",
+                    "ins_addr": "0x42c000"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 TOP>, <BV32 0x0>}})>) @ 0x42c2ac",
+                "ins_addr": "0x42c2ac"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "websFrameProcessor",
+                    "string": "websFrameProcessor(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42c000",
+                    "ins_addr": "0x42c000"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x0>, <BV32 TOP>}})>) @ 0x42c2fc",
+                "ins_addr": "0x42c2fc"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "websFrameProcessor",
+                    "string": "websFrameProcessor(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42c000",
+                    "ins_addr": "0x42c000"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x0>, <BV32 TOP>}})>) @ 0x42c34c",
+                "ins_addr": "0x42c34c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_427840",
+                    "string": "sub_427840(<MultiValues(<BV32 TOP>)>) @ 0x427840",
+                    "ins_addr": "0x427840"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x0>, <BV32 TOP>}})>) @ 0x417074",
+                "ins_addr": "0x417074"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4285d4",
+                    "string": "sub_4285d4(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4285d4",
+                    "ins_addr": "0x4285d4"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffdf8>)>) @ 0x428624",
+                "ins_addr": "0x428624"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_428658",
+                    "string": "sub_428658(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x428658",
+                    "ins_addr": "0x428658"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffdf8>)>) @ 0x4286c4",
+                "ins_addr": "0x4286c4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_425bf8",
+                    "string": "sub_425bf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x425bf8",
+                    "ins_addr": "0x425bf8"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x0>, <BV32 0#31 .. TOP>}})>) @ 0x417074",
+                "ins_addr": "0x417074"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadconfig",
+                    "string": "uploadconfig(<MultiValues(<BV32 TOP>)>) @ 0x428a90",
+                    "ins_addr": "0x428a90"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffd00>)>) @ 0x4087ec",
+                "ins_addr": "0x4087ec"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadconfig",
+                    "string": "uploadconfig(<MultiValues(<BV32 TOP>)>) @ 0x428a90",
+                    "ins_addr": "0x428a90"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffdc8>)>) @ 0x428f80",
+                "ins_addr": "0x428f80"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadconfig",
+                    "string": "uploadconfig(<MultiValues(<BV32 TOP>)>) @ 0x428a90",
+                    "ins_addr": "0x428a90"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffdc8>)>) @ 0x4290bc",
+                "ins_addr": "0x4290bc"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_424f64",
+                    "string": "sub_424f64(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x424f64",
+                    "ins_addr": "0x424f64"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 TOP>)>) @ 0x4250fc",
+                "ins_addr": "0x4250fc"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "switch_language",
+                    "string": "switch_language(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x40f50c",
+                    "ins_addr": "0x40f50c"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x0>, <BV32 TOP>}})>) @ 0x40f650",
+                "ins_addr": "0x40f650"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadfile",
+                    "string": "uploadfile(<MultiValues(<BV32 TOP>)>) @ 0x4286dc",
+                    "ins_addr": "0x4286dc"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffde0>)>) @ 0x428a34",
+                "ins_addr": "0x428a34"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "<BV32 TOP>"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadfirmware",
+                    "string": "uploadfirmware(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x429358",
+                    "ins_addr": "0x429358"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffff5b0>)>) @ 0x4087ec",
+                "ins_addr": "0x4087ec"
+            },
+            "depth": 4,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/proc/mtd"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadfirmware",
+                    "string": "uploadfirmware(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x429358",
+                    "ins_addr": "0x429358"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffff9b8>)>) @ 0x42a530",
+                "ins_addr": "0x42a530"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/proc/mtd"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadfirmware",
+                    "string": "uploadfirmware(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x429358",
+                    "ins_addr": "0x429358"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffbb8>)>) @ 0x42a2b0",
+                "ins_addr": "0x42a2b0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/proc/mtd"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "uploadfirmware",
+                    "string": "uploadfirmware(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x429358",
+                    "ins_addr": "0x429358"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffffdb8>)>) @ 0x42a420",
+                "ins_addr": "0x42a420"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/proc/mtd"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 31.306567907333374,
+    "vra_time": 64.21736073493958,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/TV-IP551WI/alphapd",
+    "name": "alphapd",
+    "has_sinks": true,
+    "sha256": "b44e96727866e521ca51ad9a679aa2397324bd6d476f3f8871d68752c70c660e",
+    "sink_times": {
+        "system": 1655.2733616828918
+    },
+    "error": null,
+    "mango_time": 1655.8505206108093,
+    "sinks": {
+        "system": 42
+    },
+    "time_data": {
+        "0x42a56c -> 0x500148": {
+            "taint_time": 3.833561420440674,
+            "rda_time": 4.5307536125183105
+        },
+        "0x42c000 -> 0x500148": {
+            "taint_time": 2.544597625732422,
+            "rda_time": 1.0445220470428467
+        },
+        "0x425f14 -> 0x500148": {
+            "taint_time": 15.958230257034302,
+            "rda_time": 29.122426509857178
+        },
+        "0x427840 -> 0x500148": {
+            "taint_time": 30.688936710357666,
+            "rda_time": 64.6435923576355
+        },
+        "0x4256c0 -> 0x500148": {
+            "taint_time": 96.79908919334412,
+            "rda_time": 156.69572281837463
+        },
+        "0x4268ac -> 0x500148": {
+            "taint_time": 35.261287450790405,
+            "rda_time": 69.67660427093506
+        },
+        "0x4285d4 -> 0x500148": {
+            "taint_time": 0.045778512954711914,
+            "rda_time": 0.07508015632629395
+        },
+        "0x426b40 -> 0x500148": {
+            "taint_time": 34.8029682636261,
+            "rda_time": 49.98010063171387
+        },
+        "0x426efc -> 0x500148": {
+            "taint_time": 57.722010374069214,
+            "rda_time": 122.87782025337219
+        },
+        "0x428658 -> 0x500148": {
+            "taint_time": 0.04848122596740723,
+            "rda_time": 0.07979273796081543
+        },
+        "0x425bf8 -> 0x500148": {
+            "taint_time": 14.94045352935791,
+            "rda_time": 39.751611948013306
+        },
+        "0x426698 -> 0x500148": {
+            "taint_time": 43.26580095291138,
+            "rda_time": 81.71487998962402
+        },
+        "0x428a90 -> 0x500148": {
+            "taint_time": 17.80066704750061,
+            "rda_time": 30.2718722820282
+        },
+        "0x424d88 -> 0x500148": {
+            "taint_time": 0.9757175445556641,
+            "rda_time": 1.1344246864318848
+        },
+        "0x424f64 -> 0x500148": {
+            "taint_time": 0.33971714973449707,
+            "rda_time": 0.3663303852081299
+        },
+        "0x40f50c -> 0x500148": {
+            "taint_time": 0.5694868564605713,
+            "rda_time": 0.7401597499847412
+        },
+        "0x4091a4 -> 0x40ac04 -> 0x500148": {
+            "taint_time": 133.17495894432068,
+            "rda_time": 53.73073959350586
+        },
+        "0x4286dc -> 0x500148": {
+            "taint_time": 7.12203574180603,
+            "rda_time": 8.9076509475708
+        },
+        "0x4081b8 -> 0x41a7a8 -> 0x500148": {
+            "taint_time": 29.675119161605835,
+            "rda_time": 37.69671416282654
+        },
+        "0x416f9c -> 0x425bf8 -> 0x500148": {
+            "taint_time": 17.799874544143677,
+            "rda_time": 34.05504775047302
+        },
+        "0x416f9c -> 0x4256c0 -> 0x500148": {
+            "taint_time": 95.50217700004578,
+            "rda_time": 158.31731581687927
+        },
+        "0x429358 -> 0x500148": {
+            "taint_time": 19.67781949043274,
+            "rda_time": 49.89093637466431
+        }
+    }
+}

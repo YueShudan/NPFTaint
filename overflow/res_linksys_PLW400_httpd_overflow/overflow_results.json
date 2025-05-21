@@ -1,0 +1,2520 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "sub_434d38",
+                    "string": "sub_434d38(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434d38",
+                    "ins_addr": "0x434d38"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 stack_base + 0xffffff6e>)>, <MultiValues(<BV32 TOP + 0x3>)>) @ 0x434e40",
+                "ins_addr": "0x434e40"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_wps_dis_mode",
+                    "main_router_connected"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_43addc",
+                    "string": "sub_43addc(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x43addc",
+                    "ins_addr": "0x43addc"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 heap_base + 0x80>)>, <MultiValues({0: {<BV32 0x454f94>, <BV32 heap_base + 0x60>}})>) @ 0x43b1b4",
+                "ins_addr": "0x43b1b4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "wl_wfi_enable",
+                    "wfi_cmd",
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_432cdc",
+                    "string": "sub_432cdc(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x432cdc",
+                    "ins_addr": "0x432cdc"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 stack_base + 0xfffffe81>)>, <MultiValues(<BV32 TOP + 0x4>)>) @ 0x4333e0",
+                "ins_addr": "0x4333e0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan_ifname",
+                    "wan_proto",
+                    "wanX",
+                    "wan_pppoe_service",
+                    "wan_hwaddr",
+                    "TOP",
+                    "wan_pppoe_ac",
+                    "wan_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 heap_base + 0x1a0>)>, <MultiValues(<BV32 stack_base + 0xffffe698>)>) @ 0x42def4",
+                "ins_addr": "0x42def4"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 heap_base + 0x1a0>)>, <MultiValues(<BV32 TOP + 0x12>)>) @ 0x42de58",
+                "ins_addr": "0x42de58"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 stack_base + 0xffffff6b>)>, <MultiValues(<BV32 TOP + 0x4>)>) @ 0x4324e8",
+                "ins_addr": "0x4324e8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_411aec",
+                    "string": "sub_411aec(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x411aec",
+                    "ins_addr": "0x411aec"
+                },
+                {
+                    "function": "get_mac_addr",
+                    "string": "get_mac_addr(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffd0>)>) @ 0x411b38",
+                    "ins_addr": "0x411b38"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 stack_base + 0xffffffd0>)>, <MultiValues({0: {<BV32 TOP>, <BV32 0x44ba10>}})>) @ 0x411a04",
+                "ins_addr": "0x411a04"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4321b0",
+                    "string": "sub_4321b0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4321b0",
+                    "ins_addr": "0x4321b0"
+                },
+                {
+                    "function": "sub_42a4f8",
+                    "string": "sub_42a4f8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x43223c",
+                    "ins_addr": "0x43223c"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 heap_base + 0x2910>)>, <MultiValues(<BV32 stack_base + 0xffffe738>)>) @ 0x42def4",
+                "ins_addr": "0x42def4"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "\u0000\u0000\u0000"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4321b0",
+                    "string": "sub_4321b0(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4321b0",
+                    "ins_addr": "0x4321b0"
+                },
+                {
+                    "function": "sub_42a4f8",
+                    "string": "sub_42a4f8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x43223c",
+                    "ins_addr": "0x43223c"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 heap_base + 0x2910>)>, <MultiValues(<BV32 TOP + 0x12>)>) @ 0x42de58",
+                "ins_addr": "0x42de58"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "\u0000\u0000\u0000"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4128e8",
+                    "string": "sub_4128e8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4128e8",
+                    "ins_addr": "0x4128e8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff50>)>, <MultiValues(<BV32 stack_base + 0xffffff75>)>) @ 0x412a44",
+                "ins_addr": "0x412a44"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "<BV72 0x2f746d702f .. TOP>"
+                ],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4270512,
+                    4270600
+                ]
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffccc>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dd60",
+                "ins_addr": "0x41dd60"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffccc>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ddf8",
+                "ins_addr": "0x41ddf8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffccc>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dfd4",
+                "ins_addr": "0x41dfd4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffccc>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e078",
+                "ins_addr": "0x41e078"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffccc>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e11c",
+                "ins_addr": "0x41e11c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e2d4",
+                "ins_addr": "0x41e2d4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e708",
+                "ins_addr": "0x41e708"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e3c4",
+                "ins_addr": "0x41e3c4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e7b4",
+                "ins_addr": "0x41e7b4"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e574",
+                "ins_addr": "0x41e574"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41dbf8",
+                    "string": "sub_41dbf8(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41dbf8",
+                    "ins_addr": "0x41dbf8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffecc>)>, <MultiValues(<BV32 stack_base + 0xfffffc7c>)>) @ 0x41e664",
+                "ins_addr": "0x41e664"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "parse_filter_arg",
+                    "string": "parse_filter_arg(<MultiValues(<BV32 TOP>)>) @ 0x43fa2c",
+                    "ins_addr": "0x43fa2c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 TOP>)>, <MultiValues({0: {<BV32 heap_base>, <BV32 0x454f94>}})>) @ 0x43fad8",
+                "ins_addr": "0x43fad8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "pc_dev_mac_1"
+                ],
+                "possibly": [
+                    "pc_dev_time_type_1"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4455096
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "parse_filter_arg",
+                    "string": "parse_filter_arg(<MultiValues(<BV32 TOP>)>) @ 0x43fa2c",
+                    "ins_addr": "0x43fa2c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 TOP + 0x12>)>, <MultiValues({0: {<BV32 heap_base + 0x20>, <BV32 0x454f94>}})>) @ 0x43fb3c",
+                "ins_addr": "0x43fb3c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "pc_dev_time_type_1"
+                ],
+                "possibly": [
+                    "pc_dev_mac_1"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4455196
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x42a8a8",
+                "ins_addr": "0x42a8a8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffe4dc>)>, <MultiValues({0: {<BV32 Reverse(TOP) + 0x1e04>, <BV32 TOP>, <BV32 0x451e04>}})>) @ 0x4435ec",
+                "ins_addr": "0x4435ec"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 heap_base + 0x1568>)>, <MultiValues(<BV32 TOP>)>) @ 0x42deac",
+                "ins_addr": "0x42deac"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffe4c3>)>, <MultiValues(<BV32 stack_base + 0xffffe4b5>)>) @ 0x428748",
+                "ins_addr": "0x428748"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffe658>)>, <MultiValues(<BV32 TOP>)>) @ 0x42fd44",
+                "ins_addr": "0x42fd44"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffe59d>)>, <MultiValues(<BV32 TOP>)>) @ 0x42fdd0",
+                "ins_addr": "0x42fdd0"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 0x454f94>, <BV32 Reverse(TOP) + 0x4f94>, <BV32 heap_base + 0x2bb4>}})>) @ 0x4305d4",
+                "ins_addr": "0x4305d4"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 0x454f94>, <BV32 heap_base + 0x2bf4>, <BV32 Reverse(TOP) + 0x4f94>}})>) @ 0x42fb50",
+                "ins_addr": "0x42fb50"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 heap_base + 0x2cf4>, <BV32 0x454f94>, <BV32 Reverse(TOP) + 0x4f94>}})>) @ 0x4311ac",
+                "ins_addr": "0x4311ac"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 Reverse(TOP) + 0x4f94>, <BV32 heap_base + 0x2d14>, <BV32 0x454f94>}})>) @ 0x431628",
+                "ins_addr": "0x431628"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 heap_base + 0x2d54>, <BV32 0x454f94>, <BV32 Reverse(TOP) + 0x4f94>}})>) @ 0x430b50",
+                "ins_addr": "0x430b50"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_wan_asp",
+                    "string": "do_wan_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4322d8",
+                    "ins_addr": "0x4322d8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499288>)>, <MultiValues({0: {<BV32 Reverse(TOP) + 0x4f94>, <BV32 heap_base + 0x2d74>, <BV32 0x454f94>}})>) @ 0x4300dc",
+                "ins_addr": "0x4300dc"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP",
+                    "wan0_"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_ezconfig_asp",
+                    "string": "do_ezconfig_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x443d8c",
+                    "ins_addr": "0x443d8c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffde4>)>, <MultiValues({0: {<BV32 Reverse(TOP)>, <BV32 0x448c04>}})>) @ 0x444ce8",
+                "ins_addr": "0x444ce8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "ezc_enable",
+                    "is_modified",
+                    "wan1_unit",
+                    "wan_ifnames",
+                    "http_username",
+                    "lan_hwaddr",
+                    "TOP",
+                    "lan_ifnames",
+                    "is_default"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "do_ezconfig_asp",
+                    "string": "do_ezconfig_asp(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x443d8c",
+                    "ins_addr": "0x443d8c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffe48>)>, <MultiValues(<BV32 TOP>)>) @ 0x444d00",
+                "ins_addr": "0x444d00"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "ezc_enable",
+                    "is_modified",
+                    "wan1_unit",
+                    "wan_ifnames",
+                    "http_username",
+                    "lan_hwaddr",
+                    "TOP",
+                    "lan_ifnames",
+                    "is_default"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41a124",
+                    "string": "sub_41a124(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41a124",
+                    "ins_addr": "0x41a124"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 heap_base + 0x60>)>) @ 0x41a57c",
+                "ins_addr": "0x41a57c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "s",
+                    "lan_ifnames",
+                    "lan1_ifname"
+                ],
+                "possibly": [
+                    "wl_unit"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4301676,
+                    4302180,
+                    4301700
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_43addc",
+                    "string": "sub_43addc(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x43addc",
+                    "ins_addr": "0x43addc"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff76>)>, <MultiValues(<BV32 stack_base + 0xffffff68>)>) @ 0x43b008",
+                "ins_addr": "0x43b008"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wl_unit"
+                ],
+                "possibly": [
+                    "wl_wfi_enable",
+                    "wfi_cmd",
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4435752
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_43addc",
+                    "string": "sub_43addc(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x43addc",
+                    "ins_addr": "0x43addc"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffff76>)>) @ 0x43b19c",
+                "ins_addr": "0x43b19c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wl_unit"
+                ],
+                "possibly": [
+                    "wl_wfi_enable",
+                    "wfi_cmd",
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4435752
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ea10",
+                "ins_addr": "0x41ea10"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ea90",
+                "ins_addr": "0x41ea90"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ec88",
+                "ins_addr": "0x41ec88"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ed2c",
+                "ins_addr": "0x41ed2c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41edac",
+                "ins_addr": "0x41edac"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ee70",
+                "ins_addr": "0x41ee70"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffe0c>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ef20",
+                "ins_addr": "0x41ef20"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues(<BV32 TOP>)>) @ 0x41ef3c",
+                "ins_addr": "0x41ef3c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41e850",
+                    "string": "sub_41e850(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41e850",
+                    "ins_addr": "0x41e850"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffe70>)>, <MultiValues(<BV32 TOP>)>) @ 0x41efe8",
+                "ins_addr": "0x41efe8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4221f4",
+                    "string": "sub_4221f4(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4221f4",
+                    "ins_addr": "0x4221f4"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffe4d>)>, <MultiValues(<BV32 stack_base + 0xfffffe0f>)>) @ 0x422640",
+                "ins_addr": "0x422640"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wan_ifnames",
+                    "lan1_ifnames",
+                    "lan_ifnames",
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_4360bc",
+                    "string": "sub_4360bc(<MultiValues(<BV32 TOP>)>) @ 0x4360bc",
+                    "ins_addr": "0x4360bc"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffc74>)>, <MultiValues(<BV32 heap_base + 0x120>)>) @ 0x437300",
+                "ins_addr": "0x437300"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "old_wan0_ifname",
+                    "wan0_ifname"
+                ],
+                "possibly": [
+                    "lan_ifnames",
+                    "router_disable",
+                    "wl4294967295_ifname",
+                    "wan_ifnames",
+                    "wl_u",
+                    "wl0_ure"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4419068,
+                    4419116
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "get_ip_from_mac",
+                    "string": "get_ip_from_mac(<MultiValues(<BV32 TOP>)>) @ 0x43e054",
+                    "ins_addr": "0x43e054"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x4a1db0>)>, <MultiValues(<BV32 stack_base + 0xfffffea0>)>) @ 0x43e1c0",
+                "ins_addr": "0x43e1c0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "/proc/net/arp"
+                ],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4448496,
+                    4448592,
+                    4448532
+                ]
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41f060",
+                    "string": "sub_41f060(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41f060",
+                    "ins_addr": "0x41f060"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffaa0>)>, <MultiValues(<BV32 stack_base + 0xfffffaf4>)>) @ 0x41fbc8",
+                "ins_addr": "0x41fbc8"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_m",
+                    "lan_",
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_434d38",
+                    "string": "sub_434d38(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x434d38",
+                    "ins_addr": "0x434d38"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff6e>)>, <MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x434e28",
+                "ins_addr": "0x434e28"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_wps_dis_mode",
+                    "main_router_connected"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41d604",
+                    "string": "sub_41d604(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41d604",
+                    "ins_addr": "0x41d604"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 heap_base + 0x6088>)>, <MultiValues(<BV32 stack_base + 0xfffff99e>)>) @ 0x41c5bc",
+                "ins_addr": "0x41c5bc"
+            },
+            "depth": 3,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "lan_ifname",
+                    "lan1_ifname",
+                    "wlXX",
+                    "/tmp/udhcpd0.leases",
+                    "fgets("
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_41c7cc",
+                    "string": "sub_41c7cc(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41c7cc",
+                    "ins_addr": "0x41c7cc"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 heap_base + 0x48>)>, <MultiValues(<BV32 stack_base + 0xfffffe66>)>) @ 0x41c5bc",
+                "ins_addr": "0x41c5bc"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl_unit",
+                    "wlXX",
+                    "/tmp/udhcpd0.leases"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_40eb20",
+                    "string": "sub_40eb20(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x40eb20",
+                    "ins_addr": "0x40eb20"
+                },
+                {
+                    "function": "get_emf_uffp_entry",
+                    "string": "get_emf_uffp_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40ee48",
+                    "ins_addr": "0x40ee48"
+                },
+                {
+                    "function": "get_emf_uffp_entry",
+                    "string": "get_emf_uffp_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40ef90",
+                    "ins_addr": "0x40ef90"
+                },
+                {
+                    "function": "get_emf_uffp_entry",
+                    "string": "get_emf_uffp_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x2>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40f0d8",
+                    "ins_addr": "0x40f0d8"
+                },
+                {
+                    "function": "get_emf_uffp_entry",
+                    "string": "get_emf_uffp_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x3>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40f220",
+                    "ins_addr": "0x40f220"
+                },
+                {
+                    "function": "get_emf_uffp_entry",
+                    "string": "get_emf_uffp_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x4>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40f368",
+                    "ins_addr": "0x40f368"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffffb8>)>, <MultiValues(<BV32 stack_base + 0xfffffe78>)>) @ 0x40eab0",
+                "ins_addr": "0x40eab0"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "emf_uffp_entry"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "nvram_list_unit_get",
+                    "string": "nvram_list_unit_get(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4419f4",
+                    "ins_addr": "0x4419f4"
+                },
+                {
+                    "function": "nvram_idx_data_get",
+                    "string": "nvram_idx_data_get(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x441a2c",
+                    "ins_addr": "0x441a2c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xfffffd88>)>, <MultiValues({0: {<BV32 heap_base>, <BV32 0x454f94>}})>) @ 0x441900",
+                "ins_addr": "0x441900"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "nvram_list_unit_get",
+                    "string": "nvram_list_unit_get(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4419f4",
+                    "ins_addr": "0x4419f4"
+                },
+                {
+                    "function": "nvram_idx_data_get",
+                    "string": "nvram_idx_data_get(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x441a2c",
+                    "ins_addr": "0x441a2c"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffffb8>)>, <MultiValues({0: {<BV32 stack_base + 0xfffffd88>, <BV32 stack_base + 0xfffffd88>, <BV32 0x0>}})>) @ 0x4419a4",
+                "ins_addr": "0x4419a4"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "TOP"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wan_get_dns",
+                    "string": "wan_get_dns(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x441f84",
+                    "ins_addr": "0x441f84"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff58>)>, <MultiValues(<BV32 heap_base + 0x40>)>) @ 0x44251c",
+                "ins_addr": "0x44251c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wan0_dns"
+                ],
+                "possibly": [
+                    "wan_proto",
+                    "wan_ipv6_proto"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4465512,
+                    4465924
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wan_get_dns",
+                    "string": "wan_get_dns(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x441f84",
+                    "ins_addr": "0x441f84"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x4a1e30>)>, <MultiValues(<BV32 stack_base + 0xffffff58>)>) @ 0x442578",
+                "ins_addr": "0x442578"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wan0_dns"
+                ],
+                "possibly": [
+                    "wan_proto",
+                    "wan_ipv6_proto"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4465512,
+                    4465924
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wan_get_dns",
+                    "string": "wan_get_dns(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x441f84",
+                    "ins_addr": "0x441f84"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff58>)>, <MultiValues(<BV32 heap_base + 0x60>)>) @ 0x442380",
+                "ins_addr": "0x442380"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wan0_dns"
+                ],
+                "possibly": [
+                    "wan_proto",
+                    "wan_ipv6_proto"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4465512,
+                    4465924
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wan_get_dns",
+                    "string": "wan_get_dns(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x441f84",
+                    "ins_addr": "0x441f84"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x4a1e30>)>, <MultiValues(<BV32 stack_base + 0xffffff58>)>) @ 0x4423e0",
+                "ins_addr": "0x4423e0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "wan0_dns"
+                ],
+                "possibly": [
+                    "wan_proto",
+                    "wan_ipv6_proto"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4465512,
+                    4465924
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_428498",
+                    "string": "sub_428498(<MultiValues(<BV32 TOP>)>) @ 0x428498",
+                    "ins_addr": "0x428498"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff73>)>, <MultiValues(<BV32 stack_base + 0xffffff65>)>) @ 0x428748",
+                "ins_addr": "0x428748"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "wl0_mode",
+                    "wl0_akm",
+                    "wl0.1_crypto",
+                    "wl0_ssid",
+                    "main_router_connected",
+                    "wl0.1_akm",
+                    "wl0_unit",
+                    "wl0.1_unit",
+                    "wl0.1_ssid",
+                    "wl0.1_mode",
+                    "wl0_crypto",
+                    "wl0._wps_mode",
+                    "wl0_wpa_psk",
+                    "wl0.1_wpa_psk",
+                    "wl0.1_wps_mode"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_438dac",
+                    "string": "sub_438dac(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x438dac",
+                    "ins_addr": "0x438dac"
+                },
+                {
+                    "function": "parse_wps_env",
+                    "string": "parse_wps_env(<MultiValues(<BV32 stack_base + 0xfffffe54>)>) @ 0x43a344",
+                    "ins_addr": "0x43a344"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 0x499264>)>, <MultiValues({0: {<BV32 TOP>, <BV32 stack_base + 0xfffffe54>, <BV32 0x0>}})>) @ 0x41b5a0",
+                "ins_addr": "0x41b5a0"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [
+                    "socket(AF_INET, SOCK_STREAM, 17)_21498_3"
+                ],
+                "possibly": [
+                    "wl_unit"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4432664
+                ]
+            },
+            "rank": 1.2999999999999998,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_427058",
+                    "string": "sub_427058() @ 0x427058",
+                    "ins_addr": "0x427058"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff32>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>) @ 0x427558",
+                "ins_addr": "0x427558"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "l",
+                    "0",
+                    "a",
+                    "s"
+                ],
+                "possibly": [
+                    "TOP",
+                    "_",
+                    "if",
+                    "n",
+                    "an",
+                    "me",
+                    "wl1337_radio"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4354364
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_427058",
+                    "string": "sub_427058() @ 0x427058",
+                    "ins_addr": "0x427058"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff32>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>) @ 0x427624",
+                "ins_addr": "0x427624"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "l",
+                    "0",
+                    "a",
+                    "s"
+                ],
+                "possibly": [
+                    "TOP",
+                    "_",
+                    "if",
+                    "n",
+                    "an",
+                    "me",
+                    "wl1337_radio"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4354364
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_427058",
+                    "string": "sub_427058() @ 0x427058",
+                    "ins_addr": "0x427058"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffff32>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>) @ 0x4276b0",
+                "ins_addr": "0x4276b0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [
+                    "l",
+                    "0",
+                    "a",
+                    "s"
+                ],
+                "possibly": [
+                    "TOP",
+                    "_",
+                    "if",
+                    "n",
+                    "an",
+                    "me",
+                    "wl1337_radio"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4354364
+                ]
+            },
+            "rank": 1.4,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "sub_40df60",
+                    "string": "sub_40df60(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x40df60",
+                    "ins_addr": "0x40df60"
+                },
+                {
+                    "function": "get_emf_rtport_entry",
+                    "string": "get_emf_rtport_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x0>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40e288",
+                    "ins_addr": "0x40e288"
+                },
+                {
+                    "function": "get_emf_rtport_entry",
+                    "string": "get_emf_rtport_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x1>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40e3d0",
+                    "ins_addr": "0x40e3d0"
+                },
+                {
+                    "function": "get_emf_rtport_entry",
+                    "string": "get_emf_rtport_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x2>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40e518",
+                    "ins_addr": "0x40e518"
+                },
+                {
+                    "function": "get_emf_rtport_entry",
+                    "string": "get_emf_rtport_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x3>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40e660",
+                    "ins_addr": "0x40e660"
+                },
+                {
+                    "function": "get_emf_rtport_entry",
+                    "string": "get_emf_rtport_entry(<MultiValues(<BV32 0x4522c4>)>, <MultiValues(<BV32 0x4>)>, <MultiValues(<BV32 stack_base + 0xffffffb8>)>) @ 0x40e7a8",
+                    "ins_addr": "0x40e7a8"
+                }
+            ],
+            "sink": {
+                "function": "strcpy",
+                "string": "strcpy(<MultiValues(<BV32 stack_base + 0xffffffb8>)>, <MultiValues(<BV32 stack_base + 0xfffffe78>)>) @ 0x40def0",
+                "ins_addr": "0x40def0"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "emf_rtport_entry"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 129.5384750366211,
+    "vra_time": 64.07998728752136,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/linksys/PLW400/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "a147a9868ea02a73ad762cf0a1d4f26d04a657f8253d8eacd01808855eb43d23",
+    "sink_times": {
+        "strcat": 123.7828459739685,
+        "strcpy": 421.7906143665314
+    },
+    "error": null,
+    "mango_time": 589.6097493171692,
+    "sinks": {
+        "strcat": 13,
+        "strcpy": 117
+    },
+    "time_data": {
+        "0x427c10 -> 0x5001a0": {
+            "taint_time": 0.2503223419189453,
+            "rda_time": 1.7555949687957764
+        },
+        "0x434d38 -> 0x5001a0": {
+            "taint_time": 1.6053094863891602,
+            "rda_time": 0.5803501605987549
+        },
+        "0x43addc -> 0x5001a0": {
+            "taint_time": 0.39807581901550293,
+            "rda_time": 0.6009769439697266
+        },
+        "0x432cdc -> 0x5001a0": {
+            "taint_time": 2.936736583709717,
+            "rda_time": 4.310253620147705
+        },
+        "0x43d51c -> 0x5001a0": {
+            "taint_time": 0.5258500576019287,
+            "rda_time": 0.6149997711181641
+        },
+        "0x4322d8 -> 0x5001a0": {
+            "taint_time": 13.94930124282837,
+            "rda_time": 26.322972774505615
+        },
+        "0x411938 -> 0x411aec -> 0x5001a0": {
+            "taint_time": 0.2377774715423584,
+            "rda_time": 0.32132577896118164
+        },
+        "0x42a4f8 -> 0x4321b0 -> 0x5001a0": {
+            "taint_time": 31.96649980545044,
+            "rda_time": 36.93829131126404
+        },
+        "0x42a4f8 -> 0x4322d8 -> 0x5001a0": {
+            "taint_time": 0.9083917140960693,
+            "rda_time": 39.63859820365906
+        },
+        "0x428498 -> 0x5001a0": {
+            "taint_time": 0.6996548175811768,
+            "rda_time": 1.2518813610076904
+        },
+        "0x4280fc -> 0x5001a0": {
+            "taint_time": 0.3260915279388428,
+            "rda_time": 0.7419204711914062
+        },
+        "0x4128e8 -> 0x5002b4": {
+            "taint_time": 0.23730111122131348,
+            "rda_time": 0.25517940521240234
+        },
+        "0x4230d8 -> 0x5002b4": {
+            "taint_time": 1.0873873233795166,
+            "rda_time": 1.6648366451263428
+        },
+        "0x425b8c -> 0x5002b4": {
+            "taint_time": 0.4157888889312744,
+            "rda_time": 0.4170360565185547
+        },
+        "0x425ef4 -> 0x5002b4": {
+            "taint_time": 1.309356927871704,
+            "rda_time": 5.873559474945068
+        },
+        "0x4209e8 -> 0x5002b4": {
+            "taint_time": 0.25201869010925293,
+            "rda_time": 0.3042454719543457
+        },
+        "0x432cdc -> 0x5002b4": {
+            "taint_time": 7.405250072479248,
+            "rda_time": 4.010396957397461
+        },
+        "0x421630 -> 0x5002b4": {
+            "taint_time": 0.3624720573425293,
+            "rda_time": 0.37406468391418457
+        },
+        "0x41dbf8 -> 0x5002b4": {
+            "taint_time": 2.761070966720581,
+            "rda_time": 4.376434564590454
+        },
+        "0x420b78 -> 0x5002b4": {
+            "taint_time": 0.32273101806640625,
+            "rda_time": 0.3307955265045166
+        },
+        "0x43fa2c -> 0x5002b4": {
+            "taint_time": 0.3505403995513916,
+            "rda_time": 0.366410493850708
+        },
+        "0x42052c -> 0x5002b4": {
+            "taint_time": 0.27620911598205566,
+            "rda_time": 0.291607141494751
+        },
+        "0x4322d8 -> 0x5002b4": {
+            "taint_time": 186.0473804473877,
+            "rda_time": 73.02585959434509
+        },
+        "0x443d8c -> 0x5002b4": {
+            "taint_time": 2.077922821044922,
+            "rda_time": 2.6829235553741455
+        },
+        "0x4206f0 -> 0x5002b4": {
+            "taint_time": 0.36370062828063965,
+            "rda_time": 0.38265538215637207
+        },
+        "0x421008 -> 0x5002b4": {
+            "taint_time": 0.2658064365386963,
+            "rda_time": 0.3141460418701172
+        },
+        "0x41a124 -> 0x5002b4": {
+            "taint_time": 0.742767333984375,
+            "rda_time": 1.0957527160644531
+        },
+        "0x424db0 -> 0x5002b4": {
+            "taint_time": 0.8525092601776123,
+            "rda_time": 1.009896993637085
+        },
+        "0x43addc -> 0x5002b4": {
+            "taint_time": 0.34177541732788086,
+            "rda_time": 0.5544734001159668
+        },
+        "0x41e850 -> 0x5002b4": {
+            "taint_time": 1.8699703216552734,
+            "rda_time": 1.1268455982208252
+        },
+        "0x4221f4 -> 0x5002b4": {
+            "taint_time": 1.0968348979949951,
+            "rda_time": 19.072137355804443
+        },
+        "0x4218e8 -> 0x5002b4": {
+            "taint_time": 0.3442099094390869,
+            "rda_time": 0.3651280403137207
+        },
+        "0x423a4c -> 0x5002b4": {
+            "taint_time": 5.267877101898193,
+            "rda_time": 0.7871627807617188
+        },
+        "0x43b250 -> 0x5002b4": {
+            "taint_time": 0.48445749282836914,
+            "rda_time": 0.5407276153564453
+        },
+        "0x4360bc -> 0x5002b4": {
+            "taint_time": 1.583751916885376,
+            "rda_time": 2.184016227722168
+        },
+        "0x43e054 -> 0x5002b4": {
+            "taint_time": 0.1568603515625,
+            "rda_time": 0.2172989845275879
+        },
+        "0x424a34 -> 0x5002b4": {
+            "taint_time": 0.5882506370544434,
+            "rda_time": 0.6414041519165039
+        },
+        "0x420d74 -> 0x5002b4": {
+            "taint_time": 0.34463024139404297,
+            "rda_time": 0.378523588180542
+        },
+        "0x422a64 -> 0x5002b4": {
+            "taint_time": 0.7450480461120605,
+            "rda_time": 0.857440710067749
+        },
+        "0x41f060 -> 0x5002b4": {
+            "taint_time": 1.4927325248718262,
+            "rda_time": 1.7632277011871338
+        },
+        "0x429a28 -> 0x5002b4": {
+            "taint_time": 2.7869551181793213,
+            "rda_time": 1.0923805236816406
+        },
+        "0x434d38 -> 0x5002b4": {
+            "taint_time": 0.32212376594543457,
+            "rda_time": 0.4071526527404785
+        },
+        "0x421ba0 -> 0x5002b4": {
+            "taint_time": 0.7720191478729248,
+            "rda_time": 0.956249475479126
+        },
+        "0x424314 -> 0x5002b4": {
+            "taint_time": 0.3228299617767334,
+            "rda_time": 0.3910996913909912
+        },
+        "0x41d604 -> 0x5002b4": {
+            "taint_time": 1.5849742889404297,
+            "rda_time": 2.8076512813568115
+        },
+        "0x411bb4 -> 0x5002b4": {
+            "taint_time": 0.47757434844970703,
+            "rda_time": 0.5285699367523193
+        },
+        "0x41c7cc -> 0x5002b4": {
+            "taint_time": 2.0277092456817627,
+            "rda_time": 2.5837953090667725
+        },
+        "0x424548 -> 0x5002b4": {
+            "taint_time": 0.972393274307251,
+            "rda_time": 0.9703066349029541
+        },
+        "0x42118c -> 0x5002b4": {
+            "taint_time": 3.3664305210113525,
+            "rda_time": 0.9067423343658447
+        },
+        "0x4203fc -> 0x432cdc -> 0x5002b4": {
+            "taint_time": 2.3971402645111084,
+            "rda_time": 3.9415671825408936
+        },
+        "0x40e8e0 -> 0x40eb20 -> 0x5002b4": {
+            "taint_time": 7.510643720626831,
+            "rda_time": 7.626951694488525
+        },
+        "0x441880 -> 0x4419f4 -> 0x5002b4": {
+            "taint_time": 0.1982874870300293,
+            "rda_time": 0.32482457160949707
+        },
+        "0x43d258 -> 0x5002b4": {
+            "taint_time": 0.21343111991882324,
+            "rda_time": 0.2426619529724121
+        },
+        "0x425584 -> 0x5002b4": {
+            "taint_time": 0.23879384994506836,
+            "rda_time": 0.28824567794799805
+        },
+        "0x441f84 -> 0x5002b4": {
+            "taint_time": 0.4472355842590332,
+            "rda_time": 0.7025637626647949
+        },
+        "0x428498 -> 0x5002b4": {
+            "taint_time": 0.6817469596862793,
+            "rda_time": 1.1146259307861328
+        },
+        "0x41b358 -> 0x438dac -> 0x5002b4": {
+            "taint_time": 2.3924124240875244,
+            "rda_time": 2.7724180221557617
+        },
+        "0x427058 -> 0x5002b4": {
+            "taint_time": 3.024445056915283,
+            "rda_time": 1.3802721500396729
+        },
+        "0x40dd20 -> 0x40df60 -> 0x5002b4": {
+            "taint_time": 7.344058990478516,
+            "rda_time": 5.341253757476807
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "closures": [],
+    "cfg_time": 89.34884595870972,
+    "vra_time": 65.906977891922,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/fastcom/FD890G/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "0e1f0876fd035522b31424f72a2cf8ffc8ada45464d4915664a1f713f558774f",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.00466156005859375,
+    "sinks": {
+        "strcat": 0,
+        "strcpy": 0,
+        "memcpy": 0
+    },
+    "time_data": {}
+}

@@ -1,0 +1,56 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "sub_41de78",
+                    "string": "sub_41de78(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x41de78",
+                    "ins_addr": "0x41de78"
+                }
+            ],
+            "sink": {
+                "function": "popen",
+                "string": "popen(<MultiValues(<BV32 stack_base + 0xfffffed4>)>, <MultiValues({0: {<BV32 Reverse(TOP) + 0x7924>, <BV32 0x437924>}})>) @ 0x41dff0",
+                "ins_addr": "0x41dff0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "t_hidelr",
+                    "lan_ipaddr",
+                    "lan_netmask",
+                    "/proc/net/ip_conntrack"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.7,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 40.48017168045044,
+    "vra_time": 53.75121808052063,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/asus/RT-AC1200E/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "650eddc0037ffa06df6c968a1761d0bd2c60c4fab9c9997e83a64a32087401ff",
+    "sink_times": {
+        "popen": 3.5941572189331055
+    },
+    "error": null,
+    "mango_time": 3.66601824760437,
+    "sinks": {
+        "popen": 1
+    },
+    "time_data": {
+        "0x41de78 -> 0x500054": {
+            "taint_time": 0.7284998893737793,
+            "rda_time": 2.864609718322754
+        }
+    }
+}

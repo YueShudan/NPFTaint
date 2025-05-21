@@ -1,0 +1,80 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "main",
+                    "string": "main(<MultiValues(<BV32 TOP + ARGC>)>, <MultiValues(<BV32 stack_base + 0xdeadc0de>)>) @ 0x40f90c",
+                    "ins_addr": "0x40f90c"
+                }
+            ],
+            "sink": {
+                "function": "exec_cmd",
+                "string": "exec_cmd(<MultiValues(<BV32 TOP>)>) @ 0x410800",
+                "ins_addr": "0x410800"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "main",
+                    "string": "main(<MultiValues(<BV32 TOP + ARGC>)>, <MultiValues(<BV32 stack_base + 0xdeadc0de>)>) @ 0x40f90c",
+                    "ins_addr": "0x40f90c"
+                }
+            ],
+            "sink": {
+                "function": "exec_cmd",
+                "string": "exec_cmd(<MultiValues(<BV32 TOP>)>) @ 0x411088",
+                "ins_addr": "0x411088"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": true,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 5.760376214981079,
+    "vra_time": 2.4179179668426514,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/trendnet/TV-IP201/ez-ipupdate",
+    "name": "ez-ipupdate",
+    "has_sinks": true,
+    "sha256": "fa936283463054fa535e738cc46f10257e09e3a223aa02c5b9dfd056d208a130",
+    "sink_times": {
+        "exec_cmd": 4.455214738845825
+    },
+    "error": null,
+    "mango_time": 4.5330634117126465,
+    "sinks": {
+        "system": 0,
+        "exec_cmd": 2,
+        "execl": 0
+    },
+    "time_data": {
+        "0x40f90c -> 0x40f5f8": {
+            "taint_time": 1.9566891193389893,
+            "rda_time": 2.497441291809082
+        }
+    }
+}

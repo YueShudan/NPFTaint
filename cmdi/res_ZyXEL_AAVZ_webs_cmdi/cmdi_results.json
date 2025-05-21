@@ -1,0 +1,18 @@
+{
+    "closures": [],
+    "cfg_time": 25.692656993865967,
+    "vra_time": 7.958986282348633,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/ZyXEL/AAVZ/webs",
+    "name": "webs",
+    "has_sinks": true,
+    "sha256": "6b0320ff9a8f8a0df975878c94a8c30e6937c29823b28a361eaef4690a8c856f",
+    "sink_times": {},
+    "error": null,
+    "mango_time": 0.014611482620239258,
+    "sinks": {
+        "system": 0,
+        "popen": 0,
+        "execl": 0
+    },
+    "time_data": {}
+}

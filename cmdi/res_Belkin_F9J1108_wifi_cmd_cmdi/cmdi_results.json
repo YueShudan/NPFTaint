@@ -1,0 +1,82 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "wifi_apup",
+                    "string": "wifi_apup() @ 0x404330",
+                    "ins_addr": "0x404330"
+                },
+                {
+                    "function": "wifi_activateVAP",
+                    "string": "wifi_activateVAP(<MultiValues(<BV32 0x4096a0>)>, <MultiValues(<BV32 0x40a0a0>)>, <MultiValues(<BV32 0x40a0a8>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>, <MultiValues(<BV32 stack_base + 0xffffff24>)>, <MultiValues(<BV32 stack_base + 0xffffff64>)>) @ 0x404db8",
+                    "ins_addr": "0x404db8"
+                },
+                {
+                    "function": "wifi_activateVAP",
+                    "string": "wifi_activateVAP(<MultiValues(<BV32 0x4096a0>)>, <MultiValues(<BV32 0x40a0a0>)>, <MultiValues(<BV32 0x40a0a8>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>, <MultiValues(<BV32 stack_base + 0xffffff24>)>, <MultiValues(<BV32 stack_base + 0xffffff64>)>) @ 0x404ed0",
+                    "ins_addr": "0x404ed0"
+                },
+                {
+                    "function": "wifi_activateVAP",
+                    "string": "wifi_activateVAP(<MultiValues(<BV32 0x4097e8>)>, <MultiValues(<BV32 0x40a0a0>)>, <MultiValues(<BV32 0x40a0a8>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>, <MultiValues(<BV32 stack_base + 0xffffff24>)>, <MultiValues(<BV32 0x40a09c>)>) @ 0x404fec",
+                    "ins_addr": "0x404fec"
+                },
+                {
+                    "function": "wifi_activateVAP",
+                    "string": "wifi_activateVAP(<MultiValues(<BV32 0x4097e8>)>, <MultiValues(<BV32 0x40a0a0>)>, <MultiValues(<BV32 0x40a0a8>)>, <MultiValues(<BV32 stack_base + 0xfffffee4>)>, <MultiValues(<BV32 stack_base + 0xffffff24>)>, <MultiValues(<BV32 0x40a09c>)>) @ 0x405108",
+                    "ins_addr": "0x405108"
+                }
+            ],
+            "sink": {
+                "function": "popen",
+                "string": "popen(<MultiValues(<BV32 stack_base + 0xfffffa54>)>, <MultiValues(<BV32 0x409470>)>) @ 0x401928",
+                "ins_addr": "0x401928"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [
+                    "fgets("
+                ],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": [
+                    4207472,
+                    4208216,
+                    4207868,
+                    4200552
+                ]
+            },
+            "rank": 0.5,
+            "reachable_from_main": true,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 2.632516384124756,
+    "vra_time": 7.029764890670776,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/belkin/F9J1108/wifi_cmd",
+    "name": "wifi_cmd",
+    "has_sinks": true,
+    "sha256": "96bc82ee5c196cba213bdd96901b58b69077e3f2775b9978e4a0a1c730c1be3a",
+    "sink_times": {
+        "popen": 48.507895708084106
+    },
+    "error": null,
+    "mango_time": 48.67252707481384,
+    "sinks": {
+        "popen": 10
+    },
+    "time_data": {
+        "0x4032b4 -> 0x404330 -> 0x500008": {
+            "taint_time": 9.03851842880249,
+            "rda_time": 14.371439933776855
+        },
+        "0x401490 -> 0x404330 -> 0x500008": {
+            "taint_time": 8.44154405593872,
+            "rda_time": 16.536970138549805
+        }
+    }
+}

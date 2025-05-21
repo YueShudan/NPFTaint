@@ -1,0 +1,351 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "formrefresh",
+                    "string": "formrefresh(<MultiValues(<BV32 TOP>)>) @ 0x42cc74",
+                    "ins_addr": "0x42cc74"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x42cd94",
+                "ins_addr": "0x42cd94"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "formrefresh",
+                    "string": "formrefresh(<MultiValues(<BV32 TOP>)>) @ 0x42cc74",
+                    "ins_addr": "0x42cc74"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x42cdcc",
+                "ins_addr": "0x42cdcc"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "formrefresh",
+                    "string": "formrefresh(<MultiValues(<BV32 TOP>)>) @ 0x42cc74",
+                    "ins_addr": "0x42cc74"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x42ce04",
+                "ins_addr": "0x42ce04"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "formrefresh",
+                    "string": "formrefresh(<MultiValues(<BV32 TOP>)>) @ 0x42cc74",
+                    "ins_addr": "0x42cc74"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x42ce3c",
+                "ins_addr": "0x42ce3c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "formrefresh",
+                    "string": "formrefresh(<MultiValues(<BV32 TOP>)>) @ 0x42cc74",
+                    "ins_addr": "0x42cc74"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff60>)>) @ 0x42ce74",
+                "ins_addr": "0x42ce74"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "read_header",
+                    "string": "read_header(<MultiValues(<BV32 TOP>)>) @ 0x40bbe0",
+                    "ins_addr": "0x40bbe0"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues({0: {<BV32 0x44c74c>, <BV32 TOP + 0xffffc74c>}})>) @ 0x40c164",
+                "ins_addr": "0x40c164"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "formWpsStart",
+                    "string": "formWpsStart(<MultiValues(<BV32 TOP>)>) @ 0x430210",
+                    "ins_addr": "0x430210"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffff68>)>) @ 0x4304e0",
+                "ins_addr": "0x4304e0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "get_bgn",
+                    "string": "get_bgn() @ 0x41821c",
+                    "ins_addr": "0x41821c"
+                },
+                {
+                    "function": "SYSTEM",
+                    "string": "SYSTEM(<MultiValues(<BV32 0x44fa5c>)>, <MultiValues({0: {<BV32 0#24 .. TOP>, <BV32 stack_base + 0xffffff30>}})>, <MultiValues({0: {<BV32 stack_base + 0xfffffe58>, <BV32 stack_base + 0xfffffe58>, <BV32 0x10>, <BV32 0#16 .. TOP>}})>, <MultiValues({0: {<BV32 TOP>, <BV32 0#24 .. TOP>}})>) @ 0x418678",
+                    "ins_addr": "0x418678"
+                },
+                {
+                    "function": "SYSTEM",
+                    "string": "SYSTEM(<MultiValues(<BV32 0x44f9fc>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffc0>)>, <MultiValues({0: {<BV32 LShR(TOP, 0x1c)>, <BV32 0x2d5053>, <BV32 0#24 .. TOP>}})>) @ 0x418638",
+                    "ins_addr": "0x418638"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xffffee88>)>) @ 0x4181e8",
+                "ins_addr": "0x4181e8"
+            },
+            "depth": 2,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 29.379950523376465,
+    "vra_time": 51.71129560470581,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/ZyXEL/AAES/webs",
+    "name": "webs",
+    "has_sinks": true,
+    "sha256": "dfede2a88589555f3cd559e573054f72cd2f17b543df519eba01e88655476060",
+    "sink_times": {
+        "system": 931.7204546928406
+    },
+    "error": null,
+    "mango_time": 932.0744812488556,
+    "sinks": {
+        "system": 120,
+        "execl": 1
+    },
+    "time_data": {
+        "0x42f8ac -> 0x50017c": {
+            "taint_time": 1.3332669734954834,
+            "rda_time": 2.9189352989196777
+        },
+        "0x42f378 -> 0x50017c": {
+            "taint_time": 2.139096260070801,
+            "rda_time": 0.6651318073272705
+        },
+        "0x425090 -> 0x50017c": {
+            "taint_time": 14.35349702835083,
+            "rda_time": 36.46211051940918
+        },
+        "0x429ce0 -> 0x50017c": {
+            "taint_time": 2.087542772293091,
+            "rda_time": 2.465524911880493
+        },
+        "0x445028 -> 0x50017c": {
+            "taint_time": 0.9475281238555908,
+            "rda_time": 1.2408082485198975
+        },
+        "0x42cc74 -> 0x50017c": {
+            "taint_time": 0.2513236999511719,
+            "rda_time": 0.3067638874053955
+        },
+        "0x42498c -> 0x50017c": {
+            "taint_time": 2.8616445064544678,
+            "rda_time": 0.4723227024078369
+        },
+        "0x427bfc -> 0x50017c": {
+            "taint_time": 1.0179822444915771,
+            "rda_time": 1.013054370880127
+        },
+        "0x424a2c -> 0x50017c": {
+            "taint_time": 2.5459775924682617,
+            "rda_time": 6.569091796875
+        },
+        "0x40bbe0 -> 0x50017c": {
+            "taint_time": 6.608368158340454,
+            "rda_time": 10.227538347244263
+        },
+        "0x4307b0 -> 0x50017c": {
+            "taint_time": 12.339937448501587,
+            "rda_time": 142.1334011554718
+        },
+        "0x4247d4 -> 0x50017c": {
+            "taint_time": 0.7956602573394775,
+            "rda_time": 0.6845736503601074
+        },
+        "0x427e58 -> 0x50017c": {
+            "taint_time": 300.7278153896332,
+            "rda_time": 0.7921168804168701
+        },
+        "0x430210 -> 0x50017c": {
+            "taint_time": 2.670557737350464,
+            "rda_time": 5.187280893325806
+        },
+        "0x42f7cc -> 0x50017c": {
+            "taint_time": 0.06500554084777832,
+            "rda_time": 0.07709193229675293
+        },
+        "0x426be8 -> 0x50017c": {
+            "taint_time": 1.0920491218566895,
+            "rda_time": 1.0270581245422363
+        },
+        "0x43ecb0 -> 0x50017c": {
+            "taint_time": 2.3928091526031494,
+            "rda_time": 2.0151820182800293
+        },
+        "0x426e44 -> 0x50017c": {
+            "taint_time": 1.4180879592895508,
+            "rda_time": 1.2572426795959473
+        },
+        "0x428448 -> 0x50017c": {
+            "taint_time": 7.226917028427124,
+            "rda_time": 7.239322900772095
+        },
+        "0x42c850 -> 0x50017c": {
+            "taint_time": 9.243997573852539,
+            "rda_time": 3.7033674716949463
+        },
+        "0x4207a4 -> 0x50017c": {
+            "taint_time": 300.5057249069214,
+            "rda_time": 0.5741384029388428
+        },
+        "0x4395dc -> 0x50017c": {
+            "taint_time": 0.06386327743530273,
+            "rda_time": 0.08758354187011719
+        },
+        "0x414868 -> 0x414428 -> 0x50017c": {
+            "taint_time": 10.362760066986084,
+            "rda_time": 8.2364501953125
+        },
+        "0x414868 -> 0x414328 -> 0x50017c": {
+            "taint_time": 0.20923328399658203,
+            "rda_time": 9.781316995620728
+        },
+        "0x41816c -> 0x41821c -> 0x50017c": {
+            "taint_time": 1.1991755962371826,
+            "rda_time": 1.4381098747253418
+        },
+        "0x4127a0 -> 0x500190": {
+            "taint_time": 0.12835407257080078,
+            "rda_time": 0.11878490447998047
+        }
+    }
+}

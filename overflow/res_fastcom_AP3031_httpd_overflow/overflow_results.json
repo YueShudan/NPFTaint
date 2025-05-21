@@ -1,0 +1,214 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "RESPONSE_RedirectReply",
+                    "string": "RESPONSE_RedirectReply(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x4572a4",
+                    "ins_addr": "0x4572a4"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x457344",
+                "ins_addr": "0x457344"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wmAccessToStr",
+                    "string": "wmAccessToStr(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x460e9c",
+                    "ins_addr": "0x460e9c"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffb0>)>) @ 0x460fcc",
+                "ins_addr": "0x460fcc"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "wmConvertListToStr",
+                    "string": "wmConvertListToStr(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x46fa30",
+                    "ins_addr": "0x46fa30"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xffffffd0>)>) @ 0x46fb14",
+                "ins_addr": "0x46fb14"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "jsManglerHandler",
+                    "string": "jsManglerHandler(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x480a70",
+                    "ins_addr": "0x480a70"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 0x604940>)>, <MultiValues({0: {<BV32 0xcacadada + TOP>, <BV32 TOP + TOP>, <BV32 0x0>, <BV32 0#24 .. TOP>}})>) @ 0x480b9c",
+                "ins_addr": "0x480b9c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "zlib_gzerror",
+                    "string": "zlib_gzerror(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x46695c",
+                    "ins_addr": "0x46695c"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues(<BV32 TOP>)>, <MultiValues({0: {<BV32 TOP>, <BV32 0x5bc18c>}})>) @ 0x466ac0",
+                "ins_addr": "0x466ac0"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        },
+        {
+            "trace": [
+                {
+                    "function": "portflHandler",
+                    "string": "portflHandler() @ 0x479bbc",
+                    "ins_addr": "0x479bbc"
+                }
+            ],
+            "sink": {
+                "function": "strcat",
+                "string": "strcat(<MultiValues({0: {<BV32 0x10>, <BV32 TOP + 0x10>, <BV32 0x0>}})>, <MultiValues(<BV32 TOP>)>) @ 0x47a11c",
+                "ins_addr": "0x47a11c"
+            },
+            "depth": 1,
+            "inputs": {
+                "likely": [],
+                "possibly": [],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 148.58155727386475,
+    "vra_time": 398.77837204933167,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/fastcom/AP303I/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "c785e854e34559eb769918918d3ff1b68480253e7e9fc444813109b7b00bcd31",
+    "sink_times": {
+        "strcat": 23.628511667251587
+    },
+    "error": null,
+    "mango_time": 23.69045662879944,
+    "sinks": {
+        "strcat": 171
+    },
+    "time_data": {
+        "0x485098 -> 0xb00220": {
+            "taint_time": 2.0385093688964844,
+            "rda_time": 6.7551515102386475
+        },
+        "0x4572a4 -> 0xb00220": {
+            "taint_time": 0.11727190017700195,
+            "rda_time": 0.18088960647583008
+        },
+        "0x460e9c -> 0xb00220": {
+            "taint_time": 0.30024290084838867,
+            "rda_time": 0.282625675201416
+        },
+        "0x46fa30 -> 0xb00220": {
+            "taint_time": 0.2118074893951416,
+            "rda_time": 0.25198864936828613
+        },
+        "0x484098 -> 0xb00220": {
+            "taint_time": 0.7454714775085449,
+            "rda_time": 1.5122935771942139
+        },
+        "0x480a70 -> 0xb00220": {
+            "taint_time": 0.40544915199279785,
+            "rda_time": 0.5679364204406738
+        },
+        "0x46695c -> 0xb00220": {
+            "taint_time": 0.10559606552124023,
+            "rda_time": 0.1812443733215332
+        },
+        "0x479bbc -> 0xb00220": {
+            "taint_time": 6.879483222961426,
+            "rda_time": 2.5927953720092773
+        }
+    }
+}

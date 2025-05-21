@@ -1,0 +1,92 @@
+{
+    "closures": [
+        {
+            "trace": [
+                {
+                    "function": "httpLoginConfirmJson",
+                    "string": "httpLoginConfirmJson(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 TOP>)>) @ 0x418c4c",
+                    "ins_addr": "0x418c4c"
+                },
+                {
+                    "function": "isWirelessManageMode",
+                    "string": "isWirelessManageMode(<MultiValues(<BV32 TOP>)>) @ 0x4188d4",
+                    "ins_addr": "0x4188d4"
+                },
+                {
+                    "function": "httpClientMacGet",
+                    "string": "httpClientMacGet(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xfffff970>)>) @ 0x418054",
+                    "ins_addr": "0x418054"
+                },
+                {
+                    "function": "isWirelessManageMode",
+                    "string": "isWirelessManageMode(<MultiValues(<BV32 TOP>)>) @ 0x4196bc",
+                    "ins_addr": "0x4196bc"
+                },
+                {
+                    "function": "isWirelessManageMode",
+                    "string": "isWirelessManageMode(<MultiValues(<BV32 TOP>)>) @ 0x4188d4",
+                    "ins_addr": "0x4188d4"
+                },
+                {
+                    "function": "httpClientMacGet",
+                    "string": "httpClientMacGet(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xfffff970>)>) @ 0x418054",
+                    "ins_addr": "0x418054"
+                },
+                {
+                    "function": "isWirelessManageMode",
+                    "string": "isWirelessManageMode(<MultiValues(<BV32 TOP>)>) @ 0x41902c",
+                    "ins_addr": "0x41902c"
+                },
+                {
+                    "function": "httpClientMacGet",
+                    "string": "httpClientMacGet(<MultiValues(<BV32 TOP>)>, <MultiValues(<BV32 stack_base + 0xfffffad8>)>) @ 0x418054",
+                    "ins_addr": "0x418054"
+                }
+            ],
+            "sink": {
+                "function": "system",
+                "string": "system(<MultiValues(<BV32 stack_base + 0xfffff8c0>)>) @ 0x416554",
+                "ins_addr": "0x416554"
+            },
+            "depth": 5,
+            "inputs": {
+                "likely": [],
+                "possibly": [
+                    "/proc/net/arp"
+                ],
+                "tags": [
+                    "likely",
+                    "possibly"
+                ],
+                "valid_funcs": []
+            },
+            "rank": 0.5,
+            "reachable_from_main": false,
+            "sanitized": false
+        }
+    ],
+    "cfg_time": 140.8943736553192,
+    "vra_time": 370.53662061691284,
+    "path": "/home/a123456/Desktop/mango/operation-mango-public-master/dataset/fastcom/AP303I/httpd",
+    "name": "httpd",
+    "has_sinks": true,
+    "sha256": "c785e854e34559eb769918918d3ff1b68480253e7e9fc444813109b7b00bcd31",
+    "sink_times": {
+        "system": 48.7808620929718
+    },
+    "error": null,
+    "mango_time": 48.9877142906189,
+    "sinks": {
+        "system": 3
+    },
+    "time_data": {
+        "0x416488 -> 0x4165a4 -> 0xb00268": {
+            "taint_time": 2.988438367843628,
+            "rda_time": 9.626169681549072
+        },
+        "0x416488 -> 0x417fc0 -> 0x418c4c -> 0xb00268": {
+            "taint_time": 15.31608772277832,
+            "rda_time": 20.832592010498047
+        }
+    }
+}
