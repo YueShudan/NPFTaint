@@ -1,0 +1,17 @@
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/boa wifiSecurity5
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/boa process_cgi_header
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/boa process_option_line
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/boa wifiSecurity2
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/boa firewall_ipv6
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/busybox 00412918
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/miniupnpd Process_upnphttp
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/miniupnpd ExecuteSoapAction
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/pppd check_passwd
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/updatedd regfish_dyndns
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/wscd http_MakeMessage
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/wscd SampleUtil_FindAndParseService
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/wscd WscUPnPDevStart
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/wscd SoapSendAction
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/wscd SoapSendActionEx
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/zebra static_config_ipv4
+/home/a123456/Desktop/GetRawFeatures/binaries/ZyXEL/ZyXEL_V1.00(AAJN.3)_binary/zebra static_uninstall_ipv4

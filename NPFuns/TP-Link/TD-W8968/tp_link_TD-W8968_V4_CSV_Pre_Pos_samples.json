@@ -1,0 +1,13 @@
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/busybox read_bunzip
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/eapd nas_app_recv_handler
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/httpd 00408218
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/ip6tables ip6tc_insert_entry
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/iptables iptc_insert_entry
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/pppd check_passwd
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/smd 00403aa8
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/snmpd correct_snmp_response_with_lengths
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/tc print_mirred
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/tr69c proto_ParseHdrs
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/upnp process_http_request
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/ushare http_MakeMessage
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD-W8968_V4/ushare ssdp_handle_device_request

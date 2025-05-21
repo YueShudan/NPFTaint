@@ -1,0 +1,15 @@
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/hostapd_cli
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/busybox
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/iptables-multi
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/sadc
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/wpa_supplicant
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/bpalogin
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/iwconfig
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/wpa_cli
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/arp
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/wlanconfig
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/iwpriv
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/net_ioctl
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/iwlist
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/sar
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TL-WA830RE_V2_140901/lld2d

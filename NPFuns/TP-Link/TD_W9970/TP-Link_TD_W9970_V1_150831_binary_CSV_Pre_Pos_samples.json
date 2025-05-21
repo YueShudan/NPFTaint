@@ -1,0 +1,9 @@
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/acsd acsd_proc_cmd
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/cli 0041457c
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/cwmp cwmp_processConnReq
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/cwmp cwmp_parseHttpRespHead
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/cwmp 0040d65c
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/httpd http_parser_main
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/pppd check_passwd
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/smbd reply_writeclose
+/home/a123456/Desktop/GetRawFeatures/binaries/tplink/TD_W9970_V1_150831_binary/upnpd HandleActionRequest
