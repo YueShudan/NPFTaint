@@ -7,16 +7,16 @@ NPFTaint achieves the accurate identification of network parsing functions throu
 There are seven main directories:
 
 - **BinarySet**: Dataset
-- **Figure**: Analysis and result presentation
+- **Figure**: Analysis and results presentation
 - **NPFtaint**: Identify the results of the potential network parsing functions
-- **feature_extractor**: The result of feature extraction for binaries
+- **feature_extractor**: The results of feature extraction for binaries
 - **model**: Network parsing function finder
-- **cmdi**: Obtain the detection results of command injection vulnerabilities with the help of mango
-- **overflow**: Obtain the detection results of buffer overflow vulnerabilities with the help of mango
+- **cmdi**: Obtain the detection results of command injection vulnerabilities with the help of Mango
+- **overflow**: Obtain the detection results of buffer overflow vulnerabilities with the help of Mango
 - **Vulnerability Database**: The collected results of firmware vulnerabilities
 
 ### Key Files
 
 - **functionFinder.py**: It is used for the training of the model
 - **binary_finder.py**: The method for collecting the executable binaries in the unpacked firmware
-- **prediction.py**: The prediction method for analyzing whether the function is a network parsing function
+- **prediction.py**: The prediction method for determining whether the function is a network parsing function
