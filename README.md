@@ -9,6 +9,7 @@ There are seven main directories:
 - **BinarySet**: Dataset
 - **Figure**: Analysis and results presentation
 - **NPFtaint**: Identify the results of the potential network parsing functions
+- **feature vector**: The results of generating the feature vectors after feature extraction and the predicted results
 - **feature_extractor**: The results of feature extraction for binaries
 - **model**: Network parsing function finder
 - **cmdi**: Obtain the detection results of command injection vulnerabilities with the help of Mango
